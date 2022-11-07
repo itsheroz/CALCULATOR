@@ -72,7 +72,7 @@ function flushOperation(intBuffer){
     }
 }
 
-function handleMath(numberString){
+function handleNumber(numberString){
     if(buffer === "0"){
         buffer = numberString;
     }else{
